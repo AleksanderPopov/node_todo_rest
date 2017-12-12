@@ -1,0 +1,22 @@
+{
+  "name": "mean_todo",
+  "version": "1.0.0",
+  "description": "todo app using mean stack",
+  "main": "app.js",
+  "scripts": {
+    "compile": "tsc -w",
+    "start": "nodemon app.js"
+  },
+  "author": "Alexander Popov",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "2.6.2",
+    "body-parser": "^1.18.2",
+    "@types/node": "8.0.46",
+    "express": "^4.16.2",
+    "@types/express": "4.0.39"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
